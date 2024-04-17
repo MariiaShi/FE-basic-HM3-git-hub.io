@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_block {
+    width: 420px;
+    height: 426px;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0px 20px 32px 0px #6061703D;
+    margin: 100px auto;
+
+}
+
+
+form {
+    width: 356px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.mail {
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+input {
+height: 48px;
+border-radius: 12px;
+border: 1px solid #CFD8DC;
+padding: 7px 16px;
+caret-color: #FFAA0D;
+font-family: "Nunito", sans-serif;
+font-weight: 400;
+}
+input:focus { 
+    outline-color: #FFE44D ;
+}
+::placeholder {
+    color: #7B8E98;
+    font-size: 16px;
+}
+p {
+    font-size: 12px;
+    margin: 24px 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+.button_block {
+    display: flex;
+    flex-direction: column;
+
+}
+button {
+    height: 48px;
+    border-radius: 55px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.Sign_up {
+    margin-bottom: 8px;
+    border: none;
+    background-color: #FFE44D;
+}
+.Enter {
+    border:1px solid #CFD8DC;
+    background-color: white;
+}
+h1 {
+    margin: 0 16px;
+    font-family: "Nunito", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
